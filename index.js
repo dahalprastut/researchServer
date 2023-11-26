@@ -15,7 +15,6 @@ const port = process.env.PORT || 3001;
 // Middleware to parse JSON data
 app.use(express.json());
 
-console.log("pr", process.env.EMAIL_PASSWORD);
 // Nodemailer transporter setup
 const transporter = nodemailer.createTransport({
 	// host: "smtp.ethereal.email",
